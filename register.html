@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: "Poppins", sans-serif;
+            background-image: url(bg/bg_space.png);
+        }
+        .form{
+            border: 1px solid white;
+            margin: auto;
+            margin-top: 80px;
+    /* margin-top: 59px; */
+    width: 500px;
+    height: 650px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* display: contents; */
+    box-shadow: 0 0 100px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 0 50px black;
+        }
+        .box{
+            color: white;
+        }
+        .form .box{
+            margin-top:20px;
+            margin-left: 30px;
+            width: 400px;
+            height: 35px;
+            border-radius: 5px;
+        }
+        .form .box, p{
+            text-align: center;
+            /* border: 2px solid red; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form">
+        <input class="box" type="text" placeholder="First Name">
+        <input class="box" type="text" placeholder="Middle-Name">
+        <input class="box" type="text" placeholder="Last Name">
+        <input class="box" type="email" placeholder="Number">
+        <input class="box" type="number" placeholder="Enter a valid E-mail ">
+        <input class="box" type="password" placeholder="Create Password">
+        <input class="box" type="password" placeholder="Re-enter Password"><br>
+        <p class="box" id="terms"><input type="checkbox"> checking you agree to all <a href="#">terms and condition</a></p>
+        <button class="box">submit</button>
+        <a href="login.html"><button class="box"> Cancel</button></a>
+    </div>
+</body>
+</html>

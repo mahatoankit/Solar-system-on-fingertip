@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {   
+    background-image: url(https://raw.githubusercontent.com/SuperMoooo/planetsWebSite/01647e0b794d4a0efc962332cb8dced9fe96bda1/imgs/bg/bg_space-min.png);
+    transition: 0.6s ease;
+  }
+  
+  /*-----------nav-----------*/
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav img {
+    width: 100%;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+  }
+  
+  nav .left a {
+    width: 18%;
+    margin: 20px;
+    transition: 0.4s ease;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+    width: 50%;
+  }
+  
+  nav .right .link {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0 20px 0 20px;
+    font-size: 24px;
+    transition: 0.4s ease;
+  }
+  
+  nav .right .link:hover {
+    color: rgb(155, 155, 155);
+  }
+  
+  @media (max-width: 1280px) {
+    nav .left a {
+      width: 25%;
+    }
+  
+    nav .right .link {
+      font-size: 18px;
+    }
+    nav .right .link:hover {
+      color: rgb(155, 155, 155);
+    }
+  }
+
+  /* form */
+ .container{
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    padding:10px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+ .container1, .container2, .container3{
+    
+        /* border: 1px solid white; */
+        border-radius: 5px;
+        margin-top: 0px;
+        padding:10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+ }
+ input[type]{
+    width:50%;
+    padding: 12px;
+    border-radius: 4px;
+    margin:6px 16px;
+    border:1px solid;
+    resize: vertical;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px;
+}
+button{
+  background-color: rgb(165 170 129 / 60%);
+  width: 150px;
+  height: 50px;
+  border-radius: 11px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5px;
+  margin-top: 20px;
+  border: none;
+    
+}
+.main{
+  display: inline-block;
+    border: 1px solid white;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    width: 33%;
+    margin-left: 593px;
+    margin-top: 150px;
+    box-shadow: 0 0 100px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
